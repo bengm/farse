@@ -4,6 +4,12 @@
 
 **Solution:** Build a parser to transform the FAR content into structured data, currently json.
 
+# Usage
+
+You could grab the output_data files as-is, or run/tweak the parser yourself. I wanted this to get the dataset to be able to dynamically assemble the content of a selection of FAR clauses.
+
+My use case: I have a contract document with a bunch of clauses included by reference. I need to read those clauses. Rather than google each clause number and read the content, I'd like to see them all referenced clauses assembled into a single document.
+
 ## Input
 
 The input data was obtain via this method:
