@@ -1,0 +1,18 @@
+/* Default style for links */
+a:active  { color: #0000CC}
+a:hover   { color: #CC0033}
+a:link    { color: #3366CC}
+a:visited { color: #9999CC}
+
+/* Default style */
+body
+{
+  background-color: #FFFFFF;
+}
+
+/* Use this style for footnote numbers */
+span.Footnote
+{
+  font-size: small;
+  vertical-align: super
+}
